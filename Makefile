@@ -6,4 +6,4 @@ all: tu-bylaws.html
 clean:
 	rm tu-bylaws.html
 
-.PHONY: all
+.PHONY: all clean
