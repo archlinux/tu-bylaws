@@ -1,7 +1,7 @@
 Trusted User Bylaws
 ===================
 Trusted Users <aur-general@archlinux.org>
-1.2, 18 January 2011
+1.3, 2013-08-07
 
 Summary
 -------
@@ -12,7 +12,7 @@ duties.
 Mission
 -------
 
-The Trusted Users serve the following purposes:
+The Trusted Users (TUs) serve the following purposes:
 
 1. Maintain +[community]+ as an intermediary between Archlinux's official
 repositories and the +unsupported+ package collection in the AUR.
@@ -22,10 +22,10 @@ repositories and the +unsupported+ package collection in the AUR.
 Bylaws
 ------
 
-The bylaws are written to be consistent with the mission of the Trusted Users,
-and to ensure that Trusted Users continue to be *Trusted* in the future. They
-are also written with the intent to keep the Trusted User organization a
-thriving one, fulfilling their purpose.
+The bylaws are written to be consistent with the mission of the TUs,
+and to ensure that TUs continue to be *Trusted* in the future. They
+are also written with the intent to keep the TU organization a
+thriving one, fulfilling its purpose.
 
 Standard Voting Procedure
 -------------------------
@@ -35,31 +35,28 @@ accept or reject proposals regarding TU affairs.
 
 SVP begins with a proposal, for example the addition of a TU or an amendment to
 the bylaws. The proposal should be clear and concise and it must be posted on
-the aur-general mailing list (aur-general). The proposal must also be worded
-unambiguously, and such that a YES or NO answer may be given.
+the https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general
+mailing list] (aur-general). The proposal must also be worded unambiguously,
+such that a YES or NO answer may be given.
 
-The discussion period begins when the proposal is posted on aur-general. The
+The discussion period begins when the proposal is posted on
+https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general]. The
 duration of the discussion period shall be 5 full days UNLESS otherwise stated
-in a section of the bylaws pertaining to the proposal. Official discussion
-shall take place on aur-general. During the discussion period, votes shall not
-be cast.
+in a section of the bylaws pertaining to the proposal. Official discussion shall
+take place on
+https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general]. During
+the discussion period, votes shall not be cast.
 
 The voting period begins when the discussion period ends. The duration of the
 voting period shall be 7 full days UNLESS otherwise stated in a section of the
 bylaws pertaining to the proposal. During the voting period, TUs may vote YES,
-NO or ABSTAIN. Votes shall be cast under the Trusted User section of the AUR
-homepage. At the end of the voting period, all votes shall be tallied.
-
-In the context of SVP, TUs are considered active if they are marked as active
-when the voting period ends.
-
-Quorum shall be 66% of all active TUs and participation shall be measured by
-the sum of YES, NO and ABSTAIN votes, UNLESS otherwise stated in a section of
-the bylaws pertaining to the proposal.
+NO or ABSTAIN. Votes shall be cast under the Trusted User section of the
+https://aur.archlinux.org/[AUR website]. At the end of the voting period, all
+votes shall be tallied.
 
 The proposal is accepted if EITHER
 
-1. the number of YES votes is greater than half the number of active TUs OR
+1. the number of YES votes is greater than half the number of TUs OR
 
 2. quorum has been established and the number of YES votes is greater than the
 number of NO votes
@@ -68,11 +65,10 @@ UNLESS otherwise stated in a section of the bylaws pertaining to the proposal.
 
 The proposal is rejected if EITHER
 
-1. the number of NO votes is greater than or equal to half the number of active
-TUs OR
+1. the number of NO votes is greater than or equal to half the number of TUs OR
 
-2. quorum was established and the number of NO votes is greater than or equal
-to the number of YES votes
+2. quorum has been established and the number of NO votes is greater than or
+equal to the number of YES votes
 
 UNLESS otherwise stated in a section of the bylaws pertaining to the proposal.
 
@@ -90,47 +86,20 @@ second SVP then it shall be rejected.
 Quorum
 ------
 
-This section deals with quorums, and the consequences for those that repeatedly
-keep the group from meeting them.
+Quorums ensure that all matters decided by vote are representative of the TU
+group. All TUs are expected to participate in all votes and the preceding
+discussions whenever possible.
 
-Quorums were established to make sure that all TUs are having a say in the
-matters that they vote on, and to ensure that TUs remain active in the job that
-they have taken on. All active TUs should be participating in discussions and
-voting procedures in order to continue meeting the quorums.  For this reason,
-active TUs that keep quorum from being established on a voting procedure for
-three consecutive voting procedures (they need not be on the same motion) are
-automatically brought up for removal procedure, by reason of unwarranted
-inactivity.
-
-Active vs. Inactive
--------------------
-
-A Trusted User will have an activity status at all times. Only two statuses
-exist, +active+, and +inactive+. A TU should remain active whenever possible,
-and avoid being inactive, especially without declaring it.
-
-An active TU participates in all TU tasks and activities normally.
-
-A TU may declare themselves inactive, for instance if they are going on
-vacation, by sending a message to
-https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general]. TUs
-are expected to step down altogether if they plan on becoming inactive for a
-period longer than 2 months.  It is expected that while inactive, a TU is
-unable to maintain packages and partake in normal TU activities. They are
-exempt from quorums and in fact cannot vote. A TU becomes active again at the
-stated date on their original inactivity declaration, or when they declare
-themselves such.
-
-If a TU becomes inactive without declaring it, "disappears", someone must
-motion for their removal for reason of unwarranted and undeclared inactivity,
-and the normal procedure for the motion is followed.
+Quorum shall be 66% of all TUs and participation shall be measured by
+the sum of YES, NO and ABSTAIN votes, UNLESS otherwise stated in a section of
+the bylaws pertaining to the proposal.
 
 Addition of a TU
 ----------------
 
-The addition of a Trusted User may occur at any time.
+The addition of a TU may occur at any time.
 
-In order to become a Trusted User, one must first find a sponsoring active TU,
+In order to become a TU, one must first find a sponsoring TU,
 and arrange privately with them to announce their candidacy on the
 https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general] mailing
 list.  Following the announcement, standard voting procedure commences with a
@@ -146,32 +115,46 @@ User for a period of three months.
 Removal of a TU
 ---------------
 
-The removal of a Trusted User may also occur at any time.
+The removal of a TU may also occur at any time.
 
-A motion must be made by at least two active Trusted Users for the removal of a
-Trusted User. The motion must be sent to
+A motion for the removal of a TU must be made by at least 2 TUs. The motion must
+be sent to
 https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general], and
-contain a detailed and valid reason that the TU in question should be removed.
+contain a detailed and valid reason why the TU in question should be removed.
 Following the motion, standard voting procedure commences with a discussion
-period of 7 days, a quorum of 75%, and a voting period of 7 days.
+period of 7 days, a quorum of 75% of all TUs except for the TU being considered
+for removal, and a voting period of 7 days.
+
 
 ----
 SVP( general_removal_of_TU, 7, 0.75, 7);
 ----
 
-The Trusted User brought up for removal may defend themselves during the
-discussion period, but may not vote during the voting period, nor may they vote
-on any other matters while SVP for their removal is in progress. 
+The TU brought up for removal may defend themselves during the
+discussion period, but may not vote on the proposal.
 
-There is one special case for removal, removal due to unwarranted and
-undeclared inactivity, for which standard voting procedure deviates from the
-above. This motion is also automatically triggered by repeated quorum offenses,
-as described in the <<Q,Quorum>> subsection of this document. For this special
-case, SVP is followed with a discussion period of three days, a quorum of 66%,
-and a voting period of 5 days.
+
+Special Removal of an Inactive TU
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+A TU who has not done ANY of the following for a period of at least 2 months:
+
+1. added, removed or updated a package in +[community]+ or the AUR
+
+2. performed any action that required TU privileges on the AUR
+
+3. posted a message to https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general]
+
+OR who has not voted in a consecutive series of voting periods, the starting dates
+of which span 2 months or more, shall be brought up for special removal due to
+inactivity.
+
+In this special case, the motion may be made by one TU instead of two, and SVP
+is followed by a discussion period of 3 days, a quorum of 66%, and a voting
+period of 5 days.
 
 ----
-SVP( inactivity_removal_of_TU, 3, 0.66, 5 );
+SVP( removal_of_inactive_TU, 3, 0.66, 5 );
 ----
 
 Amendment of Bylaws
@@ -179,7 +162,7 @@ Amendment of Bylaws
 
 These bylaws may be amended at any time.
 
-An active Trusted User must motion for an amendment by sending an announcement
+A TU must motion for an amendment by sending an announcement
 to  https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general].
 The message must either contain, or have attached, a patch against this
 document which accomplishes the suggested change. SVP is commenced at the time
@@ -190,5 +173,5 @@ voting period of 7 days.
 SVP( amend_bylaws, 5, 0.75, 7);
 ----
 
-If the amendment fails, the same amendment may not be motioned for for a period
+If the amendment fails, the same amendment may not be motioned for a period
 of three weeks.
