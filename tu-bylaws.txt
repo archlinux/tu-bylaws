@@ -92,7 +92,8 @@ discussions whenever possible.
 
 Quorum shall be 66% of all TUs and participation shall be measured by
 the sum of YES, NO and ABSTAIN votes, UNLESS otherwise stated in a section of
-the bylaws pertaining to the proposal.
+the bylaws pertaining to the proposal. The total number of TUs is recorded at
+the beginning of the voting period.
 
 Addition of a TU
 ----------------
