@@ -165,10 +165,25 @@ These bylaws may be amended at any time.
 
 A TU must motion for an amendment by sending an announcement
 to  https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general].
-The message must either contain, or have attached, a patch against this
-document which accomplishes the suggested change. SVP is commenced at the time
-of the motion, with a discussion period of 5 days, a quorum of 75%, and a
-voting period of 7 days.
+
+The message must either contain, or have attached, a Git-formatted patch
+against this document which accomplishes the suggested change. The patch should
+be based on the master branch of the official
+https://projects.archlinux.org/tu-bylaws.git/[tu-bylaws repository] and should
+be sent "inline" (i.e. using `git send-email`) so that other TUs can easily
+comment on specific parts. The strings `[PATCH]` and `[tu-bylaws]` should be
+included in the subject. `git send-email --annotate` can be used to edit a
+patch before sending it to the mailing list.
+
+Sending multiple patches is generally discouraged and should only be done if no
+more than one of the patches are subject for debate (the remaining patches
+might be formatting changes or minor wording changes). If multiple patches are
+sent as part of one proposal, a cover letter describing the changes must be
+included.  The `--cover-letter` option of `git send-email` can be used to
+achieve this.
+
+SVP is commenced at the time of the motion, with a discussion period of 5 days,
+a quorum of 75%, and a voting period of 7 days.
 
 ----
 SVP( amend_bylaws, 5, 0.75, 7);
