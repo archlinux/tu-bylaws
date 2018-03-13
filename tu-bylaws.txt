@@ -142,7 +142,9 @@ A TU who has not done ANY of the following for a period of at least 2 months:
 
 1. added, removed or updated a package in +[community]+ or the AUR
 
-2. performed any action that required TU privileges on the AUR
+2. performed any action that required TU privileges on the AUR, for example
+resolving package requests, modifying user accounts, or force pushing to a
+package base, but NOT including participation in a voting period
 
 3. posted a message to https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general]
 
