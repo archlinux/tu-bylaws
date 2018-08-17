@@ -104,10 +104,10 @@ In order to become a TU, one must first find a sponsoring TU,
 and arrange privately with them to announce their candidacy on the
 https://mailman.archlinux.org/mailman/listinfo/aur-general[aur-general] mailing
 list.  Following the announcement, standard voting procedure commences with a
-discussion period of 5 days, a quorum of 66%, and a voting period of 7 days.
+discussion period of 14 days, a quorum of 66%, and a voting period of 7 days.
 
 ----
-SVP( addition_of_TU, 5, 0.66, 7 );
+SVP( addition_of_TU, 14, 0.66, 7 );
 ----
 
 If a candidate is rejected by SVP, they may not reapply to become a Trusted
