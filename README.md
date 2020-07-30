@@ -1,6 +1,6 @@
 # AUR Trusted User Bylaws
 
-This document (tu-bylaws.txt) describes the bylaws which govern the Arch Linux
+This document (`tu-bylaws.adoc`) describes the bylaws which govern the Arch Linux
 Trusted Users.
 
 Instructions for updating:
