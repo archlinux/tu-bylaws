@@ -1,6 +1,6 @@
 all: tu-bylaws.html
 
-%.html: %.txt
+%.html: %.adoc
 	asciidoc -a toc $<
 
 clean:

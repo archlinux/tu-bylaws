@@ -1,0 +1,8 @@
+default:
+  image: archlinux:latest
+
+render:
+  before_script:
+    - pacman -Syu --needed --noconfirm asciidoc make
+  script:
+    - make
