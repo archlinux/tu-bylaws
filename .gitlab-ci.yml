@@ -1,8 +1,24 @@
 default:
   image: archlinux:latest
 
+before_script:
+  - pacman -Syu --needed --noconfirm asciidoc make
+
 render:
-  before_script:
-    - pacman -Syu --needed --noconfirm asciidoc make
   script:
     - make
+  except:
+    - schedules
+    - tags
+
+pages:
+  tags:
+    - secure
+  script:
+    - make
+  artifacts:
+    paths:
+      - tu-bylaws.html
+  only:
+    - master
+    - schedules
