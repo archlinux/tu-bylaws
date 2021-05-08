@@ -16,9 +16,10 @@ pages:
     - secure
   script:
     - make
+    - mkdir public && mv tu-bylaws.html public/index.html
   artifacts:
     paths:
-      - tu-bylaws.html
+      - public
   only:
     - master
     - schedules
